@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cynthia's Quiz App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Welcoming Section -->
+  <div id="welcome-container" class="intro-container">
+    <h1>Welcome to Cynthia's Quiz App 🎉</h1>
+    <p>Ready to test your knowledge? Let's get started! 🤓</p>
+    <button id="start-btn" class="start-btn">Start Quiz 🚀</button>
+  </div>
+
+  <!-- Quiz Section -->
+  <div id="quiz-container" class="quiz-container hidden">
+    <h2 id="question">Loading question...</h2>
+    <div id="options"></div>
+    <button id="next-btn" class="next-btn" disabled>Next</button>
+  </div>
+
+  <!-- Score Section -->
+  <div id="score-container" class="score-container hidden">
+    <h2>Your Score:</h2>
+    <p id="score">0</p>
+    <button id="restart-btn" class="restart-btn">Restart Quiz 🔄</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
